@@ -6,11 +6,11 @@ export  function FormLogin() {
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     
-    const loginPayLoad = {
+    const login = {
       email: e.currentTarget.email.value ,
       password: e.currentTarget.password.value,
     };
-    console.log(loginPayLoad);
+    console.log(login);
   }
   return (
     <LoginPage>

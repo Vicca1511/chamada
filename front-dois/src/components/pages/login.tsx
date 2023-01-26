@@ -1,5 +1,5 @@
-import {FormLogin} from "../molecules/form-login";
-import { LoginPage } from "../molecules/styled";
+import {FormLogin} from "../atoms/login/form-login";
+import { LoginPage } from "../atoms/login/styled";
 
 export default function Login() {
   return (
